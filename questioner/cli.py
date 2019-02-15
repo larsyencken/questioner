@@ -74,7 +74,7 @@ class Cli:
             for i, option in enumerate(options):
                 print(f'  {i}. {option}')
 
-            ix = input_number(0, len(options) - 1)
+            ix = self.input_number(0, len(options) - 1)
 
         print()
         return options[ix]
