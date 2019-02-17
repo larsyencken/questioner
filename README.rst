@@ -15,23 +15,18 @@ Questioner
 
 
 
+A lightweight Python interface for annotating things.
 
-A lightweight  Python interface for annotating things.
+.. code::
+
+   python -m questioner.demo
 
 
 * Free software: MIT license
-* Documentation: https://questioner.readthedocs.io.
 
 
 Features
 --------
 
-* TODO
-
-Credits
--------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+* Support for boolean, numeric, single-choice and multiple-choice questions
+* Uses single-keystroke input where possible
