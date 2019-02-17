@@ -14,7 +14,18 @@ Questioner
         :alt: Documentation Status
 
 
-A lightweight Python interface for annotating things.
+A human-friendly Python library for asking people questions on the command-line.
+
+Motivation
+----------
+
+Data often needs a human eye. I found myself writing over and over the code to help me investigate data manually on the command-line; ``questioner`` is my attempt to make this tool the right way once.
+
+It's suitable for:
+
+- **Labelling data manually** faster than you can in excel spreadsheets or similar setups
+- **Active learning loops** where you and a machine-learnining agent collaborate, reducing the need for training data
+- **Short question-based UIs** on the command-line where you need a user's input to continue
 
 Usage
 -----
