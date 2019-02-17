@@ -23,7 +23,7 @@ QUIT_LINE = 'q'
 EMAIL_REGEX = '^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$'
 
 
-class SkipQuestion(Exception):
+class QuestionSkipped(Exception):
     pass
 
 
@@ -105,7 +105,7 @@ class Cli:
         c = readchar.readchar()
 
         if c == self.skip_key:
-            raise SkipQuestion()
+            raise QuestionSkipped()
 
         elif c == self.quit_key:
             raise QuitCli()
@@ -118,7 +118,7 @@ class Cli:
         line = input(prompt).rstrip('\n')
 
         if line == self.skip_line:
-            raise SkipQuestion()
+            raise QuestionSkipped()
 
         elif line == self.quit_line:
             raise QuitCli()
