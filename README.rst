@@ -14,7 +14,6 @@ Questioner
         :alt: Documentation Status
 
 
-
 A lightweight Python interface for annotating things.
 
 .. code::
@@ -22,11 +21,13 @@ A lightweight Python interface for annotating things.
    python -m questioner.demo
 
 
-* Free software: MIT license
-
-
 Features
 --------
 
 * Support for boolean, numeric, single-choice and multiple-choice questions
 * Uses single-keystroke input where possible
+
+License
+-------
+
+MIT licensed.
